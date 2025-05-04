@@ -14,7 +14,7 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 9px;
   background: #eee;
 }
 
@@ -24,3 +24,45 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* added soln here: */
+
+.header,.footer {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+a { 
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.content {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+
+} 
+
+button {
+ padding: 8px;
+ margin: 16px;
+
+}
+

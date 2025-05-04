@@ -53,7 +53,7 @@ body {
 button {
   cursor: pointer;
   padding: 8px 16px;
-  border-radius: 8px;
+  border-radius: 8px; 
 }
 
 button.continue {
@@ -66,4 +66,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+ /* added soln here: */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+  
+}
+
+.modal {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 20px;
 }
